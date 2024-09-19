@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a, li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.conteiner {
+  max-width: 1020px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.main {
+  background-image: url(../img/main-bg.png);
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+.main__title {
+  color: #fff;
+  margin-top: 128px;
+  font-size: 56px;
+  font-family: "Roboto", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
+.main__button {
+  border-radius: 8px;
+  background-color: #F2726F;
+  margin-top: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-style: normal;
+  max-width: 210px;
+}
+
+.header__wrapper {
+  display: flex;
+}
+.header__menu {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  gap: 37px;
+  padding: 21px 0 21px 40px;
+  margin-top: 27px;
+  align-items: center;
+}
+.header__link {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+.header__title {
+  display: flex;
+}
+.header__icon {
+  gap: 22px;
+}
+
+.make-an-appointment {
+  display: flex;
+  gap: 30px;
+}
+.make-an-appointment__button {
+  border-radius: 8px;
+  background-color: #F2726F;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
+
+.boarding-hours {
+  display: flex;
+}
+.boarding-hours__text {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.logo {
+  margin-right: 236px;
+}
+
+.icon-time {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.icon-phone {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.call-us {
+  display: flex;
+}
+.call-us__text {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-right: 30px;
+}
+
+.about__conteiner {
+  max-width: 846px;
+  margin-top: -260px;
+}
+.about__wrap {
+  height: 700px;
+  background-color: #5D62B5;
+  border-radius: 40px;
+  margin-top: -80px;
+}
+.about__dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -120px;
+  z-index: -1;
+}
+.about__blod {
+  position: absolute;
+  bottom: -10px;
+}
+.about__dog {
+  padding-left: -160px;
+  border-radius: 30px;
+  position: relative;
+  justify-self: center;
+  z-index: 1;
+}
+.about__epigraph {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+.about__title {
+  font-family: "Roboto", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  font-style: 36px;
+  color: #fff;
+}
+.about__text {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+}
+
+.val-prop__subtitle {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */

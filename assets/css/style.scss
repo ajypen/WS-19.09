@@ -1,0 +1,175 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.conteiner{
+    max-width: 1020px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.main{
+   background-image: url(../img/main-bg.png) ;
+   height: 800px;
+   background-position: center;
+   background-size: cover;
+        &__title{
+            color: #fff;
+            margin-top: 128px;
+            font-size: 56px;
+            font-family: "Roboto", system-ui;
+            font-weight: 900;
+            font-style: normal;
+        }
+        &__button{
+            border-radius: 8px;
+            background-color: #F2726F;
+            margin-top: 48px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            color: #fff;
+            font-style: normal;
+            max-width: 210px;
+            //Текст по центру и кнопу побольше//
+        }
+}
+.header{
+    &__wrapper{
+        display: flex;
+    }
+    &__menu{
+        display: flex;
+        background-color: #fff;
+        border-radius: 10px;
+        gap: 37px;
+        padding: 21px 0 21px 40px;
+        margin-top: 27px;
+        align-items: center;
+    }
+    &__link{
+        color: #000;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 14px;
+    }
+    &__title{
+        display: flex;
+    }
+    &__icon{
+        gap: 22px;
+        
+    }
+}
+
+.make-an-appointment{
+    display: flex;
+    gap: 30px;
+    &__button{
+        border-radius: 8px;
+        background-color: #F2726F;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #fff;
+    }
+}
+.boarding-hours{
+    display: flex;
+    
+        &__text{
+            color: #fff; 
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal; 
+            
+    }
+}
+.logo{
+    margin-right: 236px;
+}
+.icon-time{
+    max-width: 24px;
+    max-height: 24px;
+}
+.icon-phone{
+    max-width: 24px;
+    max-height: 24px;
+}
+.call-us{
+    display: flex;
+        &__text{
+            color: #fff;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            padding-right: 30px;
+    }
+
+}
+
+
+
+.about{
+    &__conteiner{
+        max-width: 846px;
+        margin-top: -260px;
+    }
+    &__wrap{
+        height: 700px;
+        background-color: #5D62B5;
+        border-radius: 40px;
+        margin-top: -80px;
+    }
+    &__dots{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -120px;
+        z-index: -1;
+    }
+    &__blod{
+       position: absolute;
+       bottom: -10px;
+    }
+    &__dog{
+        padding-left: -160px;
+        border-radius: 30px;
+        position: relative;
+        justify-self: center;
+        z-index: 1;
+    }
+    &__epigraph{
+        color: #fff;
+        font-size: 12px;
+        font-family: "Roboto", system-ui;
+        font-weight: 700;
+        font-style: normal;
+    }
+    &__title{
+        font-family: "Roboto", system-ui;
+        font-weight: 900;
+        font-style: normal;
+        font-style: 36px;
+        color: #fff;
+    }
+    &__text{
+        font-family: "Roboto", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        color: #fff;
+    }
+}
+.val-prop__subtitle{
+    display: flex;
+}
